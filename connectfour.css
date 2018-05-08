@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    width: 96px;
+    height: 515px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reddot {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.blackdot {
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+#instructions {
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+}
