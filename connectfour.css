@@ -4,17 +4,28 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-image: url(background.jpg)
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(73, 8, 73);
+    border: solid 2px rgb(73, 8, 73);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .column {
     width: 96px;
     height: 515px;
-    border: solid 2px black;
+    border: solid 2px rgb(73, 8, 73);
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
+    background-color: rgb(255, 255, 117);
 }
+
 
 #wrapper {
     display: flex;
@@ -29,6 +40,7 @@ body {
     background-color: red;
     border-radius: 50%;
     margin: 2px;
+    pointer-events: none;
 }
 
 .blackdot {
@@ -37,12 +49,14 @@ body {
     background-color: black;
     border-radius: 50%;
     margin: 2px;
+    pointer-events: none;
 }
 
 #instructions {
     margin: 15px;
     padding: 10px;
     font-size: 25px;
+    border-radius: 5px;
 }
 
 #winner {
