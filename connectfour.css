@@ -10,9 +10,11 @@ body {
 h1 {
     font-size: 40px;
     color: rgb(73, 8, 73);
-    border: solid 2px rgb(73, 8, 73);
+    background-color: rgb(156, 216, 253);
+    border: solid 5px rgb(73, 8, 73);
     border-radius: 10px;
     padding: 10px;
+    margin: 15px;
 }
 
 .column {
@@ -54,14 +56,15 @@ h1 {
 
 #instructions {
     margin: 15px;
-    padding: 10px;
+    padding: 5px;
     font-size: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 #winner {
     font-size: 25px;
     margin: 15px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }

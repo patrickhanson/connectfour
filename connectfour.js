@@ -140,14 +140,14 @@ function createDot(event) {
             play.push(1)
             instructionsDiv.textContent = "Black Team's Turn!"
             instructionsDiv.style.color = "black"
-            instructionsDiv.style.border = "solid 2px black"
+            instructionsDiv.style.border = "solid 5px black"
         } else {
             currentDiscColor = "r"
             newElement.className = "blackdot"
             play.push(2)
             instructionsDiv.textContent = "Red Team's Turn!"
             instructionsDiv.style.color = "red"
-            instructionsDiv.style.border = "solid 2px red"
+            instructionsDiv.style.border = "solid 5px red"
         }
         destination.appendChild(newElement)
         checkWin()
