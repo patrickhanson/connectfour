@@ -3,6 +3,8 @@ let instructionsDiv = document.getElementById("instructions")
 let winnerDiv = document.getElementById("winner")
 
 let board = [
+    [0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0],
     [],
     [],
     [],
